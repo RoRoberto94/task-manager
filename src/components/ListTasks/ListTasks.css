@@ -1,0 +1,103 @@
+.list-tasks {
+    display: flex;
+    flex-direction: column;
+    margin-top: 25px;
+}
+
+.task-title {
+    font-size: 14px;
+    border-bottom: 1px solid grey;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    margin-top: 5px;
+    font-weight: bold;
+}
+
+.task-container {
+    margin-bottom: 10px;
+    border: 1px solid grey;
+    background-color: bisque;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+}
+
+.tasks-container .task-action {
+    display: flex;
+    justify-content: space-between;
+}
+
+.task-description {
+    font-size: 16px;
+}
+
+.created-date {
+    font-size: 10px;
+    font-weight: bold;
+    color: grey;
+}
+
+input,
+button,
+select {
+    padding: 10px;
+    border: 1px solid grey;
+    border-bottom: 2px solid black;
+}
+
+input,
+button {
+    /* clear the default html element style */
+    appearance: none;
+}
+
+button:hover {
+    background: grey;
+    color: white;
+}
+
+.task-edit {
+    display: flex;
+    flex-direction: column;
+}
+
+.tasks-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.tasks-container .task {
+    width: 33.33%;
+}
+
+.tasks-container .tasks-title {
+    font-weight: bold;
+    font-size: 18px;
+    display: block;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    text-transform: capitalize;
+}
+
+.tasks-container .task:last-child .tasks-title {
+    /* target last child of this kind and remove border from right */
+    border-right: none;
+}
+
+.edit-btn {
+    cursor: pointer;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 12px;
+    text-decoration: underline;
+    display: inline-block;
+
+}
+
+.edit-btn:hover {
+    text-decoration: none;
+}

@@ -1,0 +1,9 @@
+.create-task {
+    display: flex;
+    flex-direction: column;
+}
+.button {
+    max-width: 124px;
+    padding: 10px;
+    margin-top: 10px;
+}

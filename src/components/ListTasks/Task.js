@@ -29,6 +29,7 @@ const TaskComp = ({ taskDetail, onDelete, onEdit }) => {
         {
             editMode ?
                 <>
+                This is develop
                     <div className='task-action'>
                         <button onClick={() => onDelete(taskDetail.id)}>Delete</button>
                         {isEdited ? <button onClick={() => {
